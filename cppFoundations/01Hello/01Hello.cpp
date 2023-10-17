@@ -2,7 +2,8 @@
 
 int main()
 {
-    std::cout << "Hello Evelyn!\n";
+    auto result = (10 <=> 20) > 0;
+    std::cout << result << std::endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
